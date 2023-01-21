@@ -1,9 +1,9 @@
 .burger-menu {
-  opacity: 0;
+  display: none;
 }
 
 .burger-menu_visible {
-  opacity: 1;
+  display: flex;
   position: absolute;
   right: 0;
   top: 0;
