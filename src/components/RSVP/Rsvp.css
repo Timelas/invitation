@@ -1,0 +1,195 @@
+.rsvp {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+  position: relative;
+  margin-bottom: 100px;
+}
+
+.rsvp__header {
+  display: flex;
+  flex-direction: row;
+  align-self: flex-start;
+  align-items: center;
+  margin-bottom: 70px;
+}
+
+.rsvp__title {
+  font-family: "Caravan", "Arial", sans-serif;
+  font-size: 100pt;
+  font-weight: 200;
+  margin: 0;
+}
+
+.rsvp__trait {
+  width: 315px;
+  height: 2px;
+  background-color: black;
+  margin: 80px 50px 0 0;
+  z-index: 2;
+}
+
+.rsvp__text {
+  font-family: "Romul", "Arial", sans-serif;
+  font-size: 15pt;
+  line-height: 37px;
+  width: 60%;
+  margin: 30px 0 0;
+}
+
+.rsvp__form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  min-width: 40%;
+  margin: 50px 0 0;
+}
+
+.rsvp__string {
+  display: flex;
+  flex-direction: row;
+  margin: 0 0 30px;
+}
+
+.rsvp__label {
+  font-family: "Romul", "Arial", sans-serif;
+  font-size: 15pt;
+  line-height: 37px;
+  margin: 0 15px 0 0;
+  display: flex;
+  align-items: center;
+}
+
+.rsvp__input {
+  width: 340px;
+  height: 55px;
+  border-radius: 3.5px;
+  border: .5px solid #ad9a8780;
+  font-family: "Romul", "Arial", sans-serif;
+  font-size: 15pt;
+  padding: 5px;
+}
+
+.rsvp__buttons {
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  gap: 25px;
+}
+
+.rsvp__button {
+  width: 200px;
+  height: 50px;
+  background-color: #ad9a8780;
+  font-family: "Romul", "Arial", sans-serif;
+  font-size: 12pt;
+  border: none;
+  align-self: center;
+  border-radius: 3.5px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1300px) {
+  .rsvp {
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+
+  .rsvp__header {
+    margin-bottom: 70px;
+  }
+
+  .rsvp__title {
+    font-size: 70pt;
+  }
+
+  .rsvp__trait {
+    width: 230px;
+    margin: 40px 50px 0 0;
+  }
+
+  .rsvp__text {
+    font-size: 13pt;
+    width: 70%;
+    margin: 0;
+  }
+
+  .rsvp__form {
+    min-width: 50%;
+  }
+
+  .rsvp__string {
+    margin: 0 0 30px;
+  }
+
+  .rsvp__label {
+    font-size: 13pt;
+  }
+
+  .rsvp__input {
+    width: 300px;
+    height: 45px;
+    font-size: 13pt;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .rsvp {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  .rsvp__header {
+    margin-bottom: 30px;
+    height: 1px;
+  }
+
+  .rsvp__title {
+    font-size: 50pt;
+  }
+
+  .rsvp__trait {
+    width: 120px;
+    height: 1px;
+    margin: 40px 30px 0 0;
+  }
+
+  .rsvp__text {
+    font-size: 10pt;
+    line-height: 27px;
+    width: 80%;
+    margin: 50px 0 0;
+  }
+
+  .rsvp__form {
+    min-width: 40%;
+    margin: 30px 0 0;
+  }
+
+  .rsvp__string {
+    margin: 0 0 15px;
+  }
+
+  .rsvp__label {
+    font-size: 8pt;
+    line-height: 30px;
+    margin: 0 10px 0 0;
+  }
+
+  .rsvp__input {
+    width: 130px;
+    height: 20px;
+    font-size: 8pt;
+  }
+
+  .rsvp__buttons {
+    gap: 15px;
+  }
+
+  .rsvp__button {
+    width: 95px;
+    height: 31px;
+    font-size: 8pt;
+  }
+}

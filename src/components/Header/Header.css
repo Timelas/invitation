@@ -1,0 +1,152 @@
+.header {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.header__desctop {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 50px;
+  box-sizing: border-box;
+}
+
+.header__mobile {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0;
+}
+
+.header__info-mobile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+}
+
+.header__info_names-mobile {
+  font-family: "Caravan", "Arial", sans-serif;
+  font-size: 90px;
+  line-height: 50pt;
+  margin: 0;
+  transform: translateX(-40px);
+}
+
+.header__title {
+  font-family: "Romul", "Arial", sans-serif;
+  font-size: 18px;
+  font-weight: 21.6;
+  writing-mode:  vertical-rl;
+  transform: rotate(180deg);
+  height: max-content;
+  margin: 0 25px;
+  align-self: flex-end;
+}
+
+.header__image {
+  width: 650px;
+  height: 1000px;
+  object-fit: cover;
+  z-index: 2;
+}
+
+.header__image-mobile {
+  width: 350px;
+  height: 80%;
+  object-fit: cover;
+  margin: 60px 0 0;
+  transform: translateX(50px);
+  align-self: flex-end;
+}
+
+.header__info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #e0c7af;
+  margin: 30px 0;
+  width: 100%;
+  border-bottom-right-radius: 120px;
+  border-top-right-radius: 120px;
+  box-sizing: border-box;
+}
+
+.header__info_names {
+  font-family: "Caravan", "Arial", sans-serif;
+  font-size: 133px;
+  line-height: 110pt;
+  margin: 0;
+  transform: translateX(-40px);
+}
+
+.header__info_date {
+  margin-top: 180px;
+  font-family: "Romul", "Arial", sans-serif;
+  font-size: 32pt;
+  line-height: 42pt;
+}
+
+.header__info_date-mobile {
+  font-family: "Romul", "Arial", sans-serif;
+  font-size: 18pt;
+  align-self: flex-end;
+  margin: 15px 0 0;
+}
+
+@media screen and (max-width: 1700px) {
+  .header {
+    padding: 20px;
+  }
+
+  .header__image {
+    width: 450px;
+    height: 630px;
+  }
+
+  .header__info_date {
+    margin-top: 120px;
+  }
+
+  .header__info {
+    max-width: 600px;
+  }
+}
+
+@media screen and (max-width: 1279px) {
+  .header {
+    width: 90%;
+    padding: 0;
+  }
+
+  .header__title {
+    font-size: 15px;
+    margin: 0 10px;
+  }
+
+  .header__image {
+    width: 320px;
+    height: 470px;
+  }
+
+  .header__info {
+    margin: 20px 0;
+    width: 100%;
+    border-bottom-right-radius: 80px;
+    border-top-right-radius: 80px;
+    max-width: 400px;
+  }
+
+  .header__info_names {
+    font-size: 70px;
+    line-height: 70pt;
+  }
+
+  .header__info_date {
+    margin-top: 80px;
+    font-size: 20pt;
+    line-height: 42pt;
+  }
+}
