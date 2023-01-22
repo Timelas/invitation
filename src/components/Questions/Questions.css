@@ -34,7 +34,6 @@
   font-family: "Romul", "Arial", sans-serif;
   font-size: 20pt;
   line-height: 37px;
-  width: 60%;
   margin: 30px 0 0;
 }
 
@@ -55,12 +54,19 @@
 }
 
 .question__label {
-  font-family: "Romul", "Arial", sans-serif;
-  font-size: 14pt;
-  line-height: 37px;
   margin: 20px 0 0 0;
   display: flex;
   align-items: center;
+  gap: 10px;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.question__text {
+  font-family: "Romul", "Arial", sans-serif;
+  font-size: 14pt;
+  line-height: 37px;
+  margin: 0;
 }
 
 .question__input {
@@ -86,12 +92,68 @@
   cursor: pointer;
 }
 
-.input[type="radio"] {
+.question__unvisible {
+  font-family: inherit;
   position: absolute;
   width: 1px;
   height: 1px;
   overflow: hidden;
   clip-path: inset(0 0 0 0);
+}
+
+.question__visible-radio {
+  display: inline-block;
+  vertical-align: middle;
+  width: 16px;
+  height: 16px;
+  border: 1px solid rgba(0, 0, 0, 0.645);
+  border-radius: 50%;
+  cursor: pointer;
+  background-color: #fff;
+}
+
+.question__unvisible:checked + .question__visible-radio {
+  background-color: gray;
+}
+
+.question__unvisible:disabled + .question__visible-radio {
+  border: 1px solid grey;
+  background-color: #fbf8ec;
+}
+
+.question__unvisible:disabled:checked+ .question__visible-radio {
+  background-color: #fbf8ec;
+}
+
+.question__unvisible:focus + .question__visible-radio {
+    box-shadow: 0 0 5px #f8f7f0;
+}
+
+.question__visible-checkbox {
+  display: inline-block;
+  vertical-align: middle;
+  width: 16px;
+  height: 16px;
+  border: 1px solid rgba(0, 0, 0, 0.645);
+  cursor: pointer;
+  background-color: #fff;
+}
+
+.question__unvisible:checked + .question__visible-checkbox {
+  background-color: gray;
+}
+
+.question__unvisible:disabled + .question__visible-checkbox {
+  border: 1px solid grey;
+  background-color: #fbf8ec;
+}
+
+.question__unvisible:disabled:checked+ .question__visible-checkbox {
+  background-color: #fbf8ec;
+}
+
+.question__unvisible:focus + .question__visible-checkbox {
+    box-shadow: 0 0 5px #f8f7f0;
 }
 
 @media screen and (max-width: 1300px) {
@@ -110,8 +172,6 @@
 
   .question__text {
     font-size: 15pt;
-    width: 70%;
-    margin: 30px 0 0;
   }
 
   .question__form {
@@ -125,12 +185,7 @@
   }
 
   .question__label {
-    font-size: 13pt;
     margin: 10px 0 0;
-  }
-
-  .question__label:last-of-type {
-    margin: 0;
   }
 
   .question__input {
@@ -160,9 +215,17 @@
 
   .question__text {
     font-size: 10pt;
-    line-height: 30px;
-    width: 80%;
-    margin: 30px 0 0;
+    line-height: 23px;
+  }
+
+  .question__visible-radio {
+    width: 10px;
+    height: 10px;
+  }
+
+  .question__visible-checkbox {
+    width: 10px;
+    height: 10px;
   }
 
   .question__form {
@@ -170,13 +233,11 @@
   }
 
   .question__string {
-    margin: 0 0 30px;
+    margin: 0 0 15px;
     font-size: 10pt;
   }
 
   .question__label {
-    font-size: 10pt;
-    line-height: 30px;
     margin: 10px 0 0 0;
   }
 

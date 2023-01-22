@@ -22,14 +22,20 @@
 }
 
 .info-date__our-wedding {
-  font-family: "Caravan", "Arial", sans-serif;
-  font-size: 88pt;
-  line-height: 130px;
-  text-align: center;
   background-color: #e0c7af;
   width: 600px;
   height: 200px;
   border-radius: 50px;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.info-date__our-wedding-text {
+  font-family: "Caravan", "Arial", sans-serif;
+  font-size: 88pt;
+  line-height: 130px;
+  text-align: center;
   margin: 0;
 }
 
@@ -173,9 +179,13 @@
   .info-date__our-wedding {
     width: 500px;
     height: 160px;
+  }
+
+  .info-date__our-wedding-text {
     line-height: 90px;
     font-size: 78pt;
   }
+
 
   .info-date__text {
     line-height: 40px;
@@ -202,11 +212,14 @@
   }
 
   .info-date__our-wedding {
-    font-size: 60pt;
-    line-height: 80px;
     width: 400px;
     height: 130px;
     border-radius: 50px;
+  }
+
+  .info-date__our-wedding-text {
+    font-size: 60pt;
+    line-height: 80px;
   }
 
   .info-date__place {
@@ -264,11 +277,14 @@
 
 @media screen and (max-width: 800px) {
   .info-date__our-wedding {
-    font-size: 50pt;
-    line-height: 60px;
     width: 350px;
     height: 100px;
     border-radius: 50px;
+  }
+
+  .info-date__our-wedding-text {
+    font-size: 50pt;
+    line-height: 60px;
   }
 
   .info-date__place {

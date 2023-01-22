@@ -13,34 +13,37 @@ function Questions() {
       </p>
       <form className="question__form">
         <fieldset className="question__string">Понадобится ли вам трансфер:
-          <label  htmlFor="name" className="question__label">
-            <input type="radio" name="browser" value="ie" id="ie"></input>
+          <label  htmlFor="yes-transfer" className="question__label">
+            <input className="question__unvisible" type="radio" name="transfer" value="yes-transfer" id="yes-transfer"></input>
             <span className="question__visible-radio"></span>
-            Да
+            <span className="question__text">Да</span>
           </label>
-          <label className="question__label">
-            <input type="radio" name="browser" value="opera" id="opera"></input>
+          <label className="question__label" htmlFor="no-transfer">
+            <input className="question__unvisible" type="radio" name="transfer" value="no-transfer" id="no-transfer"></input>
             <span className="question__visible-radio"></span>
-            Нет
+            <span className="question__text">Нет</span>
           </label>
         </fieldset>
         <fieldset className="question__string">Предпочтения по еде:
-          <label  htmlFor="name" className="question__label">
-            <input type="checkbox" name="browser" value="ie" id="ie"></input>
-            Курица
+          <label  htmlFor="chicken" className="question__label">
+            <input className="question__unvisible" type="checkbox" name="eat" value="chicken" id="chicken"></input>
+            <span className="question__visible-checkbox"></span>
+            <span className="question__text">Курица</span>
           </label>
-          <label className="question__label">
-            <input type="checkbox" name="browser" value="opera" id="opera"></input>
-            Рыба
+          <label htmlFor="fish" className="question__label">
+            <input className="question__unvisible" type="checkbox" name="eat" value="fish" id="fish"></input>
+            <span className="question__visible-checkbox"></span>
+            <span className="question__text">Рыба</span>
           </label>
-          <label className="question__label">
-            <input type="checkbox" name="browser" value="opera" id="opera"></input>
-            Мясо
+          <label htmlFor="meat" className="question__label">
+            <input className="question__unvisible" type="checkbox" name="eat" value="meat" id="meat"></input>
+            <span className="question__visible-checkbox"></span>
+            <span className="question__text">Мясо</span>
           </label>
         </fieldset>
         <p className="question__string">
-          <label htmlFor="person" className="question__label">Пожелания по алкоголю:</label>
-          <input type="text" name="person" id="person" required className="question__input"></input>
+          <label htmlFor="alco" className="question__label">Пожелания по алкоголю:</label>
+          <input type="text" name="alco" id="alco" required className="question__input"></input>
         </p>
         <button type="submit" className="question__button">Подтвердить</button>
       </form>

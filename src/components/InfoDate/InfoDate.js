@@ -8,7 +8,7 @@ function InfoDate() {
         <p className="info-date__who">Дорогие</p>
         <p className="info-date__who">родные и друзья!</p>
         <p className="info-date__text">Один день в этом году будет для нас особенным и мы хотим провести его в кругу близких и друзей. С большим удовольствием приглашаем вас на знаменательный праздник - </p>
-        <p className="info-date__our-wedding">Нашу свадьбу!</p>
+        <div className="info-date__our-wedding"><p className="info-date__our-wedding-text">Нашу свадьбу!</p></div>
       </div>
       <div className="info-date__place" id="place">
         <div className="info-date__line1"></div>
