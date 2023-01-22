@@ -34,7 +34,7 @@
 .info-date__our-wedding-text {
   font-family: "Caravan", "Arial", sans-serif;
   font-size: 88pt;
-  line-height: 130px;
+  line-height: 100%;
   text-align: center;
   margin: 0;
 }
@@ -182,7 +182,6 @@
   }
 
   .info-date__our-wedding-text {
-    line-height: 90px;
     font-size: 78pt;
   }
 
@@ -219,7 +218,6 @@
 
   .info-date__our-wedding-text {
     font-size: 60pt;
-    line-height: 80px;
   }
 
   .info-date__place {
@@ -284,7 +282,6 @@
 
   .info-date__our-wedding-text {
     font-size: 50pt;
-    line-height: 60px;
   }
 
   .info-date__place {

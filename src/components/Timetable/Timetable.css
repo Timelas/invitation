@@ -11,6 +11,7 @@
   flex-direction: row;
   align-self: flex-start;
   align-items: center;
+  width: 100%;
 }
 
 .timetable__title {
@@ -32,7 +33,7 @@
 }
 
 .timetable__trait {
-  width: 315px;
+  width: 27%;
   height: 2px;
   background-color: black;
   margin: 80px 50px 0 0;
@@ -181,7 +182,6 @@
   }
 
   .timetable__trait {
-    width: 230px;
     margin: 60px 50px 0 0;
   }
 
@@ -228,7 +228,6 @@
   }
 
   .timetable__trait {
-    width: 50%;
     height: 1px;
     margin: 40px 30px 0 0;
   }

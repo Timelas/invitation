@@ -13,6 +13,7 @@
   align-self: flex-end;
   align-items: center;
   margin-bottom: 70px;
+  width: 100%;
 }
 
 .counter__figure {
@@ -28,7 +29,7 @@
 }
 
 .counter__trait {
-  width: 315px;
+  width: 27%;
   height: 2px;
   background-color: black;
   margin: 80px 0 0;
@@ -111,7 +112,6 @@ background-color: #5b3f21;
   }
 
   .counter__trait {
-    width: 230px;
     margin: 80px 0 0;
   }
 }
@@ -133,7 +133,6 @@ background-color: #5b3f21;
   }
 
   .counter__trait {
-    width: 180px;
     height: 1px;
     margin: 0;
   }

@@ -13,6 +13,7 @@
   align-self: flex-start;
   align-items: center;
   margin-bottom: 70px;
+  width: 100%;
 }
 
 .details__title {
@@ -34,7 +35,7 @@
 }
 
 .details__trait {
-  width: 315px;
+  width: 27%;
   height: 2px;
   background-color: black;
   margin: 80px 50px 0 0;
@@ -70,7 +71,6 @@
   }
 
   .details__trait {
-    width: 230px;
     margin: 60px 50px 0 0;
   }
 
@@ -100,7 +100,6 @@
   }
 
   .details__trait {
-    width: 120px;
     height: 1px;
     margin: 40px 30px 0 0;
   }
