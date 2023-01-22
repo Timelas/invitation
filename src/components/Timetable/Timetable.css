@@ -251,7 +251,7 @@
 
   .timetable__line {
     transform: rotate(90deg);
-    width: 100px;
+    width: 101px;
   }
 
     .timetable__line-start {
