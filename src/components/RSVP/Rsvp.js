@@ -14,7 +14,7 @@ function Rsvp() {
       </p>
       <form className="rsvp__form">
         <p className="rsvp__string">
-          <label htmlFor="name" className="rsvp__label">имя</label>
+          <label htmlFor="name" className="rsvp__label">Фамилия и имя</label>
           <input type="text" name="name" id="name" required className="rsvp__input"></input>
         </p>
         <p className="rsvp__string">
@@ -22,8 +22,8 @@ function Rsvp() {
           <input type="number" min="0" max="10" name="person" id="person" required className="rsvp__input"></input>
         </p>
         <div className="rsvp__buttons">
-        <button type="submit" className="rsvp__button">приду</button>
-        <button type="submit" className="rsvp__button">не смогу</button>
+        <button type="submit" className="rsvp__button">подтвердить</button>
+        <button type="submit" className="rsvp__button">отклонить</button>
         </div>
       </form>
     </section>
