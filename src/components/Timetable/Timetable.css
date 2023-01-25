@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 100px;
+  padding-top: 150px;
   position: relative;
 }
 
@@ -16,7 +16,7 @@
 
 .timetable__title {
   font-family: "Caravan", "Arial", sans-serif;
-  font-size: 100pt;
+  font-size: 120px;
   font-weight: 200;
   margin: 0;
 }
@@ -26,7 +26,7 @@
   background-repeat: no-repeat;
   background-size: contain;
   position: absolute;
-  top: 50px;
+  top: 110px;
   left: 0;
   width: 100px;
   height: 300px;
@@ -130,7 +130,7 @@
 
 .timetable__text {
   font-family: "Romul", "Arial", sans-serif;
-  font-size: 8pt;
+  font-size: 14px;
   line-height: 20px;
   margin: 0;
 }
@@ -164,9 +164,28 @@
 }
 
 @media screen and (max-width: 1700px) {
+  .timetable__title {
+    font-size: 100px;
+  }
+
+  .timetable__figure {
+    top: 110px;
+    width: 90px;
+    height: 250px;
+  }
+
   .timetable__text {
-    font-size: 10pt;
+    font-size: 14px;
     width: 180px;
+  }
+
+  .timetable__pic {
+    width: 90px;
+    height: 90px;
+  }
+
+  .timetable__trait {
+    margin: 50px 50px 0 0;
   }
 }
 

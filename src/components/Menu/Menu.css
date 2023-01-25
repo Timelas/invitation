@@ -1,7 +1,7 @@
 .menu {
-  height: 220px;
+  height: 150px;
   margin: 0 auto;
-  padding: 0 100px;
+  padding: 0;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -16,7 +16,7 @@
   align-items: center;
   margin: 0;
   padding: 0;
-  width: 100%;
+  width: 90%;
 }
 
 .menu__link {
@@ -32,7 +32,7 @@
 .menu__ancor {
   text-decoration: none;
   font-family: "Romul", "Arial", sans-serif;
-  font-size: 23px;
+  font-size: 20px;
   color: black;
   transition: color .4s;
 }
@@ -46,8 +46,8 @@
   background-color: inherit;
   background-image: url(../../images/burger.svg);
   background-repeat: no-repeat;
-  width: 50px;
-  height: 40px;
+  width: 40px;
+  height: 30px;
   cursor: pointer;
   opacity: 0;
 }
@@ -62,24 +62,12 @@
 
 @media screen and (max-width: 1700px) {
   .menu {
-    height: 130px;
-    margin: 0;
-    padding: 0 180px;
-  }
-
-  .menu__ancor {
-    font-size: 20px;
-  }
-}
-
-@media screen and (max-width: 1300px) {
-  .menu {
     height: 100px;
-    padding: 0;
+    margin: 0;
   }
 
   .menu__links {
-    width: 80%;
+    width: 70%;
   }
 
   .menu__ancor {
@@ -87,20 +75,39 @@
   }
 }
 
+@media screen and (max-width: 1300px) {
+  .menu {
+    height: 70px;
+  }
+
+  .menu__ancor {
+    font-size: 14px;
+  }
+}
+
 @media screen and (max-width: 800px) {
   .menu {
-    height: 75px;
+    height: 50px;
     padding: 0 25px;
     box-sizing: border-box;
   }
 
   .menu__ancor {
-    font-size: 15px;
+    font-size: 12px;
   }
 }
 
 @media screen and (max-width: 700px) {
   .menu {
     justify-content: flex-end;
+    width: 0;
+    height: 0;
+    padding: 0;
+  }
+
+  .menu__burger-btn {
+    position: absolute;
+    right: 15px;
+    top: 15px;
   }
 }

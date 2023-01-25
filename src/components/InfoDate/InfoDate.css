@@ -4,19 +4,20 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  position: relative;
 }
 
 .info-date__who {
   font-family: "Caravan", "Arial", sans-serif;
-  font-size: 88pt;
+  font-size: 120px;
   line-height: 100px;
   margin: 0;
 }
 
 .info-date__text {
   font-family: "Romul", "Arial", sans-serif;
-  font-size: 16pt;
-  line-height: 35px;
+  font-size: 20px;
+  line-height: 40px;
   width: calc(100% - 150px);
   margin: 120px 0 50px;
 }
@@ -33,7 +34,7 @@
 
 .info-date__our-wedding-text {
   font-family: "Caravan", "Arial", sans-serif;
-  font-size: 88pt;
+  font-size: 120px;
   line-height: 100%;
   text-align: center;
   margin: 0;
@@ -87,14 +88,14 @@
 
 .info-date__what {
   font-family: "Caravan", "Arial", sans-serif;
-  font-size: 50pt;
+  font-size: 80px;
   line-height: 42px;
   margin: 0 0 60px;
 }
 
 .info-date__where {
   font-family: "Romul", "Arial", sans-serif;
-  font-size: 16pt;
+  font-size: 20px;
   line-height: 29px;
   margin: 0;
 }
@@ -102,7 +103,7 @@
 .info-date__day-week {
   grid-area: day-week;
   font-family: "Romul", "Arial", sans-serif;
-  font-size: 24pt;
+  font-size: 30px;
   margin: 0;
   justify-self: start;
 }
@@ -117,7 +118,7 @@
 
 .info-date__number {
   font-family: "Romul", "Arial", sans-serif;
-  font-size: 50pt;
+  font-size: 60px;
   font-weight: 2;
   margin: 0;
 }
@@ -132,7 +133,7 @@
 .info-date__time {
   grid-area: time;
   font-family: "Romul", "Arial", sans-serif;
-  font-size: 28pt;
+  font-size: 30px;
   margin: 0;
   justify-self: end;
 }
@@ -172,24 +173,62 @@
     margin-top: 75px;
   }
 
-  .info-date__text {
-    margin: 100px 0 30px;
-  }
-
   .info-date__our-wedding {
     width: 500px;
     height: 160px;
   }
 
   .info-date__our-wedding-text {
-    font-size: 78pt;
+    font-size: 100px;
   }
 
-
   .info-date__text {
-    line-height: 40px;
+    font-size: 18px;
+    line-height: 35px;
     width: 75%;
-    margin: 120px 0 50px;
+    margin: 110px 0 50px;
+  }
+
+  .info-date__who {
+    font-size: 100px;
+    line-height: 90px;
+  }
+
+  .info-date__day-week {
+    font-size: 28px;
+  }
+
+  .info-date__number {
+    font-size: 55px;
+  }
+
+  .info-date__time {
+    font-size: 28px;
+  }
+
+  .info-date__what {
+    font-size: 70px;
+  }
+
+  .info-date__where {
+    font-size: 18px;
+  }
+
+  .info-date__vertical-line {
+    height: 70px;
+    margin: 0 13px;
+  }
+
+  .info-date__figure-left {
+    top: 0px;
+    width: 90px;
+    height: 250px;
+  }
+
+  .info-date__figure-right {
+    bottom: -100px;
+    width: 90px;
+    height: 250px;
   }
 }
 
@@ -204,7 +243,7 @@
   }
 
   .info-date__text {
-    font-size: 13pt;
+    font-size: 14px;
     line-height: 30px;
     width: calc(100% - 150px);
     margin: 100px 0 50px;
@@ -343,8 +382,8 @@
   }
 
   .info-date__text {
-    font-size: 10pt;
-    line-height: 18pt;
+    font-size: 12px;
+    line-height: 20px;
     width: calc(100% - 50px);
     margin: 60px 0 25px;
   }

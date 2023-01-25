@@ -15,7 +15,7 @@ function InfoDate() {
         <div className="info-date__line2"></div>
         <div className="info-date__check-in">
           <p className="info-date__what">Торжественная регистрация</p>
-          <p className="info-date__where">Дворец Бракосочетаяния 1 Английская набережная, 28 в 15.30</p>
+          <p className="info-date__where">Дворец Бракосочетаяния 1 <br /> Английская набережная, 28 <br /> в 15.30</p>
         </div>
         <p className="info-date__day-week">Пятница</p>
         <div className="info-date__day">

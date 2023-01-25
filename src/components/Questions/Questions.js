@@ -8,6 +8,7 @@ function Questions() {
         <div className="question__trait"></div>
         <h2 className="question__title">Опрос</h2>
       </div>
+      <div className="question__figure"></div>
       <p className="question__text">Чтобы все прошло идеально и этот день запомнился надолго, пожалуйста,
         ответьте на несколько вопросов
       </p>
@@ -42,7 +43,7 @@ function Questions() {
           </label>
         </fieldset>
         <p className="question__string">
-          <label htmlFor="alco" className="question__label">Пожелания по алкоголю:</label>
+          <label htmlFor="alco" className="question__string">Пожелания по алкоголю:</label>
           <input type="text" name="alco" id="alco" required className="question__input"></input>
         </p>
         <button type="submit" className="question__button">Подтвердить</button>

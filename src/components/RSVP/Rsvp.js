@@ -8,6 +8,7 @@ function Rsvp() {
         <div className="rsvp__trait"></div>
         <h2 className="rsvp__title">RSVP</h2>
       </div>
+      <div className="rsvp__figure"></div>
       <p className="rsvp__text">Пожалуйста, подтвердите ваше присутствие на нашем празднике до
       01 июня 2023 года любым удобным для вас способом или заполните форму ниже:
       </p>

@@ -5,12 +5,12 @@
   align-items: center;
   justify-content: center;
   gap: 50px;
-  margin: 100px 0 150px;
+  margin: 100px 0 130px;
 }
 
 .footer__text {
   font-family: "Romul", "Arial", sans-serif;
-  font-size: 15pt;
+  font-size: 20px;
   margin: 0;
 }
 
@@ -18,20 +18,39 @@
   display: flex;
   flex-direction: column;
   margin: 0;
-  width: 550px;
+  width: 450px;
   align-items: flex-start;
 }
 
 .footer__name {
   font-family: "Caravan", "Arial", sans-serif;
-  font-size: 120pt;
+  font-size: 120px;
   font-weight: 200;
-  line-height: 85pt;
+  line-height: 80pt;
   margin: 0;
 }
 
 .footer__name-end {
   align-self: flex-end;
+}
+
+@media screen and (max-width: 1700px) {
+  .footer {
+    margin: 50px 0 100px;
+  }
+
+  .footer__text {
+    font-size: 18px;
+  }
+
+  .footer__names {
+    width: 400px;
+  }
+
+  .footer__name {
+    font-size: 100px;
+    line-height: 60pt;
+  }
 }
 
 @media screen and (max-width: 1300px) {
