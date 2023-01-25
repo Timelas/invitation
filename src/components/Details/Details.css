@@ -88,39 +88,40 @@
 
 @media screen and (max-width: 1300px) {
   .details {
-    padding-top: 100px;
+    padding-top: 50px;
     margin: 0;
   }
 
   .details__header {
-    margin-bottom: 70px;
+    margin-bottom: 50px;
   }
 
   .details__title {
-    font-size: 70pt;
+    font-size: 70px;
   }
 
   .details__figure {
-    top: 80px;
+    top: 10px;
     width: 70px;
     height: 200px;
   }
 
   .details__trait {
-    margin: 60px 50px 0 0;
+    margin: 30px 50px 0 0;
   }
 
   .details__text {
-    font-size: 13pt;
-    width: 70%;
-    margin: 0 0 30px 0;
+    font-size: 14px;
+    line-height: 28px;
+    width: 60%;
+    margin: 10px 0 10px 0;
   }
 }
 
 @media screen and (max-width: 700px) {
   .details {
     margin: 0;
-    padding-top: 50px;
+    padding-top: 30px;
   }
 
   .details__header {
@@ -128,7 +129,7 @@
   }
 
   .details__title {
-    font-size: 50pt;
+    font-size: 60px;
   }
 
   .details__figure {
@@ -137,13 +138,13 @@
 
   .details__trait {
     height: 1px;
-    margin: 40px 30px 0 0;
+    margin: 30px 30px 0 0;
   }
 
   .details__text {
-    font-size: 10pt;
-    line-height: 30px;
+    font-size: 12px;
+    line-height: 25px;
     width: 80%;
-    margin: 0 0 15px 0;
+    margin: 7px 0;
   }
 }

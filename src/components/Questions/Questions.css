@@ -38,6 +38,13 @@
   margin: 30px 0 0;
 }
 
+.question__text-span {
+  font-family: "Romul", "Arial", sans-serif;
+  font-size: 20px;
+  line-height: 37px;
+  margin: 30px 0 0;
+}
+
 .question__form {
   display: flex;
   flex-direction: column;
@@ -50,8 +57,9 @@
   margin: 0 0 30px;
   border: none;
   font-family: "Romul", "Arial", sans-serif;
-  font-size: 24px;
+  font-size: 22px;
   align-items: flex-start;
+  padding: 0;
 }
 
 .question__label {
@@ -64,6 +72,13 @@
 }
 
 .question__text {
+  font-family: "Romul", "Arial", sans-serif;
+  font-size: 20px;
+  line-height: 37px;
+  margin: 0;
+}
+
+.question__text-span {
   font-family: "Romul", "Arial", sans-serif;
   font-size: 20px;
   line-height: 37px;
@@ -91,6 +106,7 @@
   align-self: center;
   border-radius: 3.5px;
   cursor: pointer;
+  color: black;
 }
 
 .question__unvisible {
@@ -198,9 +214,14 @@
     width: 60%;
   }
 
+  .question__text-span {
+    font-size: 18px;
+    line-height: 33px;
+  }
+
   .question__string {
     margin: 0 0 20px;
-    font-size: 22px;
+    font-size: 20px;
   }
 
   .question__label {
@@ -223,28 +244,39 @@
 
 @media screen and (max-width: 1300px) {
   .question {
-    margin-bottom: 70px;
+    margin-bottom: 50px;
   }
 
   .question__title {
-    font-size: 70pt;
+    font-size: 70px;
   }
 
   .question__trait {
     margin: 40px 50px 0 0;
   }
 
+  .question__figure {
+    top: -40px;
+    width: 70px;
+    height: 200px;
+  }
+
   .question__text {
-    font-size: 15pt;
+    font-size: 14px;
+  }
+
+  .question__text-span {
+    font-size: 14px;
+    line-height: 28px;
   }
 
   .question__form {
-    margin: 50px 0 0;
+    margin: 40px 0 0;
   }
 
   .question__string {
     margin: 0 0 20px;
-    font-size: 13pt;
+    font-size: 16px;
     padding: 0;
   }
 
@@ -252,15 +284,17 @@
     margin: 10px 0 0;
   }
 
-  .question__input {
-    margin-top: 7px;
+  .question__button {
+    width: 180px;
+    height: 40px;
+    font-size: 14px;
   }
 }
 
 @media screen and (max-width: 800px) {
   .question {
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
   }
 
   .question__header {
@@ -268,16 +302,27 @@
   }
 
   .question__title {
-    font-size: 50pt;
+    font-size: 60px;
+    text-align: start;
   }
 
   .question__trait {
     height: 1px;
-    margin: 40px 30px 0 0;
+    margin: 30px 30px 0 0;
+  }
+
+  .question__figure {
+    opacity: 0;
   }
 
   .question__text {
-    font-size: 10pt;
+    font-size: 12px;
+    line-height: 23px;
+    width: 80%;
+  }
+
+  .question__text-span {
+    font-size: 12px;
     line-height: 23px;
   }
 
@@ -296,7 +341,7 @@
   }
 
   .question__string {
-    margin: 0 0 15px;
+    margin: 0 0 12Spx;
     font-size: 10pt;
   }
 
@@ -306,12 +351,12 @@
 
   .question__input {
     height: 35px;
-    font-size: 10pt;
+    font-size: 12px;
   }
 
   .question__button {
     width: 155px;
     height: 40px;
-    font-size: 10pt;
+    font-size: 12px;
   }
 }

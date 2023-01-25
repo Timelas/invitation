@@ -17,29 +17,29 @@ function Questions() {
           <label  htmlFor="yes-transfer" className="question__label">
             <input className="question__unvisible" type="radio" name="transfer" value="yes-transfer" id="yes-transfer"></input>
             <span className="question__visible-radio"></span>
-            <span className="question__text">Да</span>
+            <span className="question__text-span">Да</span>
           </label>
           <label className="question__label" htmlFor="no-transfer">
             <input className="question__unvisible" type="radio" name="transfer" value="no-transfer" id="no-transfer"></input>
             <span className="question__visible-radio"></span>
-            <span className="question__text">Нет</span>
+            <span className="question__text-span">Нет</span>
           </label>
         </fieldset>
         <fieldset className="question__string">Предпочтения по еде:
           <label  htmlFor="chicken" className="question__label">
             <input className="question__unvisible" type="checkbox" name="eat" value="chicken" id="chicken"></input>
             <span className="question__visible-checkbox"></span>
-            <span className="question__text">Курица</span>
+            <span className="question__text-span">Курица</span>
           </label>
           <label htmlFor="fish" className="question__label">
             <input className="question__unvisible" type="checkbox" name="eat" value="fish" id="fish"></input>
             <span className="question__visible-checkbox"></span>
-            <span className="question__text">Рыба</span>
+            <span className="question__text-span">Рыба</span>
           </label>
           <label htmlFor="meat" className="question__label">
             <input className="question__unvisible" type="checkbox" name="eat" value="meat" id="meat"></input>
             <span className="question__visible-checkbox"></span>
-            <span className="question__text">Мясо</span>
+            <span className="question__text-span">Мясо</span>
           </label>
         </fieldset>
         <p className="question__string">

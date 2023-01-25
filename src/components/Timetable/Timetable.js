@@ -34,7 +34,7 @@ function Timetable() {
         <img className="timetable__line timetable__line_center_music" src={lineCenter} alt="линия"></img>
         <img className="timetable__line-start" src={lineStart} alt="линия"></img>
         <img className="timetable__line-end" src={lineEnd} alt="линия"></img>
-        <p className="timetable__text timetable__text_about_rings">Церемония: <br /> Сбор гостей в 15.00 Начало в 15.30</p>
+        <p className="timetable__text timetable__text_about_rings">Церемония: <br /> Сбор гостей в 15.00 <br /> Начало в 15.30</p>
         <p className="timetable__text timetable__text_about_foto">Фотопрогулка <br /> 16.00-16:30</p>
         <p className="timetable__text timetable__text_about_glasses">Welcome 16:45</p>
         <p className="timetable__text timetable__text_about_plate">Свадебный ужин <br /> 17.00</p>

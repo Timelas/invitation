@@ -2,6 +2,7 @@
   width: 100%;
   margin: 0 auto;
   box-sizing: border-box;
+  padding: 0;
 }
 
 .header__desctop {
@@ -30,8 +31,8 @@
 
 .header__info_names-mobile {
   font-family: "Caravan", "Arial", sans-serif;
-  font-size: 90px;
-  line-height: 50pt;
+  font-size: 80px;
+  line-height: 65px;
   margin: 0;
   transform: translateX(-40px);
 }
@@ -113,18 +114,9 @@
 }
 
 @media screen and (max-width: 1500px) {
-  .header__desctop {
-    padding: 35px;
-  }
-
   .header__image {
-    width: 350px;
-    height: 530px;
-  }
-
-  .header__info_date {
-    margin-top: 90px;
-    font-size: 26px;
+    width: 380px;
+    height: 580px;
   }
 
   .header__info {
@@ -133,18 +125,22 @@
 }
 
 @media screen and (max-width: 1300px) {
-  .header {
-    padding: 0;
+  .header__desctop {
+    padding: 40px;
+  }
+
+  .header__info_date {
+    font-size: 24px;
+  }
+
+  .header__info_names {
+    font-size: 90px;
+    line-height: 70pt;
   }
 
   .header__title {
     font-size: 14px;
     margin: 0 10px;
-  }
-
-  .header__image {
-    width: 320px;
-    height: 470px;
   }
 
   .header__info {
@@ -155,34 +151,44 @@
     max-width: 400px;
     padding: 0 30px;
   }
+}
 
-  .header__info_names {
-    font-size: 70px;
-    line-height: 70pt;
+@media screen and (max-width: 850px) {
+  .header__info_date {
+    font-size: 20px;
   }
 
-  .header__info_date {
-    margin-top: 80px;
-    font-size: 20px;
-    line-height: 42pt;
+  .header__info_names {
+    font-size: 80px;
+    line-height: 60pt;
+  }
+
+  .header__title {
+    font-size: 14px;
+    margin: 0 10px;
+  }
+
+  .header__image {
+    width: 300px;
+    height: 480px;
   }
 }
 
 @media screen and (max-width: 700px) {
   .header__image-mobile {
-    width: 350px;
-    height: 80%;
+    /* width: 75vw; */
+    height: 65vh;
     object-fit: cover;
-    margin: 60px 0 0;
+    margin: 50px 0 0;
     position: relative;
     align-self: center;
   }
 
   .header__info_date-mobile {
+    display: none;
     font-family: "Romul", "Arial", sans-serif;
-    font-size: 18px;
-    align-self: center;
-    margin: 15px;
+    font-size: 14px;
+    font-weight: 200;
   }
 }
 
@@ -195,6 +201,7 @@
 
   .header__info_date-mobile {
     align-self: flex-end;
-    margin: 15px 15px 0 0;
+    margin: 13px 13px 0 0;
+    display: flex;
   }
 }

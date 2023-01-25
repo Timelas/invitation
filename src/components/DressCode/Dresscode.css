@@ -121,29 +121,34 @@
 @media screen and (max-width: 1300px) {
   .dresscode {
     margin-top: 0;
-    padding-top: 100px;
+    padding-top: 50px;
   }
 
   .dresscode__title {
-    font-size: 70pt;
+    font-size: 70px;
   }
 
   .dresscode__trait {
     margin: 50px 0 0 50px;
-    font-size: 10pt;
+    font-size: 12px;
     line-height: 10px;
     padding-top: 7px;
   }
 
+  .dresscode__figure {
+    top: 10px;
+    width: 70px;
+    height: 200px;
+  }
+
   .dresscode__description {
-    font-size: 13pt;
+    font-size: 14px;
     line-height: 30px;
-    width: 60%;
     margin: 0;
   }
 
   .dresscode__colors {
-    margin: 50px 0 0;
+    margin: 40px 0 0;
     gap: 20px;
   }
 
@@ -156,7 +161,7 @@
 @media screen and (max-width: 800px) {
   .dresscode {
     margin-top: 0;
-    padding-top: 50px;
+    padding-top: 30px;
   }
 
   .dresscode__header {
@@ -165,9 +170,11 @@
   }
 
   .dresscode__title {
-    font-size: 50pt;
+    font-size: 60px;
     width: 250px;
-    padding-bottom: 60px;
+    padding-bottom: 30px;
+    line-height: 30px;
+    text-align: start;
   }
 
   .dresscode__trait {
@@ -175,12 +182,16 @@
     margin: 40px 20px 0 0;
     z-index: 2;
     text-align: end;
-    font-size: 10pt;
+    font-size: 12px;
+  }
+
+  .dresscode__figure {
+    opacity: 0;
   }
 
   .dresscode__description {
-    font-size: 10pt;
-    line-height: 27px;
+    font-size: 12px;
+    line-height: 23px;
     width: 80%;
     margin: 0;
   }
