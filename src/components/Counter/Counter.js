@@ -11,7 +11,7 @@ function Counter({ date }) {
     if (diff < 0) return // время вышло
     setDiff([
       Math.floor(diff / 2628002,88), // месяца
-      Math.floor(diff / 86400), // дни
+      Math.floor((diff / 86400) % 30), // дни
       Math.floor((diff / 3600) % 24),
       Math.floor((diff / 60) % 60)
     ])

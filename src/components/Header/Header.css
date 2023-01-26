@@ -176,7 +176,7 @@
 
 @media screen and (max-width: 700px) {
   .header__image-mobile {
-    height: 65vh;
+    height: 62vh;
     object-fit: cover;
     margin: 45px 0 0;
     position: relative;
