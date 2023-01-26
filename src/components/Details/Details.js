@@ -1,14 +1,11 @@
 import React from "react";
+import Title from "../Title/Title";
 import "./Details.css";
 
 function Details() {
   return (
     <section className="details" id="details">
-      <div className="details__header">
-        <div className="details__trait"></div>
-        <h2 className="details__title">Детали</h2>
-      </div>
-      <div className="details__figure"></div>
+      <Title title={"Детали"}/>
       <p className="details__text">Обратите внимание, что формат мероприятия не предполагают детской площадки и аниматоров. Пожалуйста, позаботьтесь
 о том, чтобы провести этот вечер без детей.</p>
       <div className="details__line"></div>

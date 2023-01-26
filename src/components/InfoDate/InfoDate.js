@@ -3,7 +3,7 @@ import "./InfoDate.css";
 
 function InfoDate() {
   return (
-    <section className="info-date" id="home">
+    <section className="info-date">
       <div className="info-date__invitation">
         <p className="info-date__who">Дорогие</p>
         <p className="info-date__who">родные и друзья!</p>

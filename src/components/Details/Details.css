@@ -2,8 +2,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 50px;
-  padding-bottom: 100px;
+  padding: 100px 0 0;
   position: relative;
 }
 
@@ -52,13 +51,13 @@
 
 .details__line {
   background-color: black;
-  height: 2px;
+  height: 1px;
   width: 3%;
 }
 
 @media screen and (max-width: 1700px) {
   .details {
-    padding-bottom: 0px;
+    padding: 70px 0 0;
   }
 
   .details__header {
@@ -88,8 +87,7 @@
 
 @media screen and (max-width: 1300px) {
   .details {
-    padding-top: 50px;
-    margin: 0;
+    padding: 50px 0 0;
   }
 
   .details__header {
@@ -120,8 +118,7 @@
 
 @media screen and (max-width: 700px) {
   .details {
-    margin: 0;
-    padding-top: 30px;
+    padding: 30px 0 0;
   }
 
   .details__header {

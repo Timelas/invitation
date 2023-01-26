@@ -1,14 +1,11 @@
 import React from "react";
+import Title from "../Title/Title";
 import "./Questions.css";
 
 function Questions() {
   return (
     <section className="question" id="questions">
-      <div className="question__header">
-        <div className="question__trait"></div>
-        <h2 className="question__title">Опрос</h2>
-      </div>
-      <div className="question__figure"></div>
+      <Title title={"Опрос"}/>
       <p className="question__text">Чтобы все прошло идеально и этот день запомнился надолго, пожалуйста,
         ответьте на несколько вопросов
       </p>

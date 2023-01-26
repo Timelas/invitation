@@ -1,5 +1,6 @@
 import React from "react";
 import "./Timetable.css";
+import Title from "../Title/Title";
 import rings from "../../images/rings.svg";
 import foto from "../../images/foto.svg";
 import glasses from "../../images/glasses.svg";
@@ -14,11 +15,7 @@ import lineCenter from "../../images/center.svg";
 function Timetable() {
   return (
     <section className="timetable" id="plan">
-      <div className="timetable__header">
-        <div className="timetable__trait"></div>
-        <h2 className="timetable__title">План дня</h2>
-      </div>
-      <div className="timetable__figure"></div>
+      <Title title={"План дня"}/>
       <div className="timetable__block">
         <img alt="rings" className="timetable__pic timetable__pic_visual_rings" src={rings}></img>
         <img alt="foto" className="timetable__pic timetable__pic_visual_foto" src={foto}></img>

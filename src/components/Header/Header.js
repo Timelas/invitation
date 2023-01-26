@@ -6,7 +6,7 @@ import newlyweds from "../../images/newlyweds.JPG"
 function Header() {
   const resize = useMediaQuery('(min-width: 700px)');
   return (
-    <section className="header">
+    <section className="header" id="home">
       {
         resize ? (
           <div className="header__desctop">

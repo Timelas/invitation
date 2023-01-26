@@ -1,5 +1,8 @@
-.info-date__invitation {
+.info-date {
   margin-top: 100px;
+}
+
+.info-date__invitation {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -48,8 +51,7 @@
     "line1 day-week banquet"
     "check-in day banquet"
     "check-in time line2";
-  padding-top: 100px;
-  margin-top: 50px;
+  padding-top: 150px;
   align-items: center;
   row-gap: 50px;
   column-gap: 20px;
@@ -144,6 +146,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding: 0 15px;
+  box-sizing: border-box;
 }
 
 .info-date__figure-left {
@@ -151,7 +155,7 @@
   background-repeat: no-repeat;
   background-size: contain;
   position: absolute;
-  top: -20px;
+  top: 30px;
   width: 100px;
   height: 300px;
 }
@@ -169,7 +173,7 @@
 }
 
 @media screen and (max-width: 1700px) {
-  .info-date__invitation {
+  .info-date {
     margin-top: 75px;
   }
 
@@ -230,10 +234,14 @@
     width: 90px;
     height: 250px;
   }
+
+  .info-date__place {
+    padding-top: 100px;
+  }
 }
 
 @media screen and (max-width: 1300px) {
-  .info-date__invitation {
+  .info-date {
     margin-top: 50px;
   }
 
@@ -260,8 +268,6 @@
   }
 
   .info-date__place {
-    padding-top: 50px;
-    row-gap: 50px;
     column-gap: 10px;
   }
 
@@ -272,7 +278,7 @@
   .info-date__what {
     font-size: 50px;
     line-height: 42px;
-    margin: 0 0 50px;
+    margin: 0 0 40px;
   }
 
   .info-date__where {
@@ -300,13 +306,13 @@
   }
 
   .info-date__figure-left {
-    top: -30px;
+    top: 20px;
     width: 70px;
     height: 200px;
   }
 
   .info-date__figure-right {
-    bottom: -80px;
+    bottom: -70px;
     width: 70px;
     height: 200px;
   }
@@ -333,7 +339,7 @@
   }
 
   .info-date__what {
-    font-size: 40pt;
+    font-size: 50px;
     margin: 0 0 50px;
   }
 
@@ -359,7 +365,7 @@
   }
 
   .info-date__figure-left {
-    top: 30px;
+    top: 10px;
     width: 70px;
     height: 200px;
   }
@@ -372,10 +378,6 @@
 }
 
 @media screen and (max-width: 700px) {
-  .info-date__invitation {
-    margin-top: 30px;
-  }
-
   .info-date__who {
     font-size: 60px;
     line-height: 50px;
@@ -409,7 +411,6 @@
       "check-in check-in check-in"
       "banquet banquet banquet";
     padding-top: 30px;
-    margin-top: 0;
     row-gap: 20px;
     column-gap: 15px;
   }

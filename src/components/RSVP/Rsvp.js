@@ -1,14 +1,11 @@
 import React from "react";
+import Title from "../Title/Title";
 import "./Rsvp.css";
 
 function Rsvp() {
   return (
     <section className="rsvp" id="rsvp">
-      <div className="rsvp__header">
-        <div className="rsvp__trait"></div>
-        <h2 className="rsvp__title">RSVP</h2>
-      </div>
-      <div className="rsvp__figure"></div>
+      <Title title={"RSVP"}/>
       <p className="rsvp__text">Пожалуйста, подтвердите ваше присутствие на нашем празднике до
       01 июня 2023 года любым удобным для вас способом или заполните форму ниже:
       </p>

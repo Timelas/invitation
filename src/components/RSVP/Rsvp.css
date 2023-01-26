@@ -2,9 +2,8 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 100px;
+  padding: 100px 0 0;
   position: relative;
-  margin-bottom: 100px;
 }
 
 .rsvp__header {
@@ -108,8 +107,7 @@
 
 @media screen and (max-width: 1700px) {
   .rsvp {
-    margin-top: 50px;
-    margin-bottom: 50px;
+    padding: 70px 0 0;
   }
 
   .rsvp__header {
@@ -157,8 +155,7 @@
 
 @media screen and (max-width: 1300px) {
   .rsvp {
-    margin-top: 50px;
-    margin-bottom: 50px;
+    padding: 50px 0 0;
   }
 
   .rsvp__header {
@@ -218,8 +215,7 @@
 
 @media screen and (max-width: 800px) {
   .rsvp {
-    margin-top: 30px;
-    margin-bottom: 30px;
+    padding: 30px 0 0;
   }
 
   .rsvp__header {
@@ -264,9 +260,9 @@
   }
 
   .rsvp__input {
-    width: 130px;
-    height: 20px;
-    font-size: 8pt;
+    width: 150px;
+    height: 35px;
+    font-size: 12px;
   }
 
   .rsvp__buttons {
