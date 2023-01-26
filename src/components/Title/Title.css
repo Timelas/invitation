@@ -93,6 +93,7 @@
 
   .title__title {
     font-size: 60px;
+    align-self: center;
   }
 
   .title__figure {

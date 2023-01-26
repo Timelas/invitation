@@ -10,6 +10,10 @@ function Questions() {
         ответьте на несколько вопросов
       </p>
       <form className="question__form">
+        <p className="question__string">
+          <label htmlFor="who" className="question__string">ИМЯ И ФАМИЛИЯ:</label>
+          <input type="text" name="who" id="who" required className="question__input"></input>
+        </p>
         <fieldset className="question__string">Понадобится ли вам трансфер:
           <label  htmlFor="yes-transfer" className="question__label">
             <input className="question__unvisible" type="radio" name="transfer" value="yes-transfer" id="yes-transfer"></input>

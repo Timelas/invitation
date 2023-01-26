@@ -241,7 +241,7 @@
     font-size: 12px;
     line-height: 22px;
     width: 80%;
-    margin: 30px 0 0;
+    margin: 20px 0 0;
   }
 
   .rsvp__form {
@@ -250,7 +250,7 @@
   }
 
   .rsvp__string {
-    margin: 0 0 12px;
+    margin: 0 0 15px;
   }
 
   .rsvp__label {
@@ -260,7 +260,7 @@
   }
 
   .rsvp__input {
-    width: 150px;
+    width: 175px;
     height: 35px;
     font-size: 12px;
   }
@@ -271,7 +271,7 @@
 
   .rsvp__button {
     width: 130px;
-    height: 31px;
+    height: 35px;
     font-size: 12px;
   }
 }
