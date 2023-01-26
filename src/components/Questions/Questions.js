@@ -11,7 +11,7 @@ function Questions() {
       </p>
       <form className="question__form">
         <p className="question__string">
-          <label htmlFor="who" className="question__string">ИМЯ И ФАМИЛИЯ:</label>
+          <label htmlFor="who" className="question__label-input">ИМЯ И ФАМИЛИЯ:</label>
           <input type="text" name="who" id="who" required className="question__input"></input>
         </p>
         <fieldset className="question__string">Понадобится ли вам трансфер:
@@ -44,7 +44,7 @@ function Questions() {
           </label>
         </fieldset>
         <p className="question__string">
-          <label htmlFor="alco" className="question__string">Пожелания по алкоголю:</label>
+          <label htmlFor="alco" className="question__label-input">Пожелания по алкоголю:</label>
           <input type="text" name="alco" id="alco" required className="question__input"></input>
         </p>
         <button type="submit" className="question__button">Подтвердить</button>

@@ -71,6 +71,10 @@
   justify-content: flex-start;
 }
 
+.question__label-input {
+  margin: 0 0 20px 0;
+}
+
 .question__text-span {
   font-family: "Romul", "Arial", sans-serif;
   font-size: 20px;
@@ -128,7 +132,7 @@
 }
 
 .question__unvisible:disabled + .question__visible-radio {
-  border: 1px solid grey;
+  border: 1px solid #5b3f21;
   background-color: #fbf8ec;
 }
 
@@ -220,6 +224,10 @@
     margin: 15px 0 0 0;
   }
 
+  .question__label-input {
+    margin: 0 0 15px 0;
+  }
+
   .question__input {
     padding: 7px;
   }
@@ -269,6 +277,10 @@
 
   .question__label {
     margin: 10px 0 0;
+  }
+
+  .question__label-input {
+    margin: 0 0 10px 0;
   }
 
   .question__button {

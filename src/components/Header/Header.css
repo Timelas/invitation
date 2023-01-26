@@ -176,7 +176,7 @@
 
 @media screen and (max-width: 700px) {
   .header__image-mobile {
-    height: 65vh;
+    height: 60vh;
     object-fit: cover;
     margin: 45px 0 0;
     position: relative;
@@ -188,6 +188,17 @@
     font-family: "Romul", "Arial", sans-serif;
     font-size: 16px;
     font-weight: 200;
+  }
+
+  .header__block {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+
+  .header__title {
+    position: relative;
+    right: -50px;
   }
 }
 
@@ -202,5 +213,9 @@
     align-self: flex-end;
     margin: 13px 13px 0 0;
     display: flex;
+  }
+
+  .header__title {
+    font-size: 12px;
   }
 }

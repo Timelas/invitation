@@ -24,7 +24,10 @@ function Header() {
               <p className="header__info_names-mobile">Алексей и</p>
               <p className="header__info_names-mobile">&nbsp;&nbsp;&nbsp;&nbsp;Виктория</p>
             </div>
-            <img src={newlyweds} className="header__image-mobile" alt="молодожены"></img>
+            <div className="header__block">
+              <h1 className="header__title">Приглашение на свадьбу</h1>
+              <img src={newlyweds} className="header__image-mobile" alt="молодожены"></img>
+            </div>
             <p className="header__info_date-mobile">23.06.2023</p>
           </div>
         )
