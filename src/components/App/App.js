@@ -1,11 +1,12 @@
 import React from 'react';
+import Countdown from 'react-countdown';
 import Menu from "../Menu/Menu";
 import Header from "../Header/Header";
 import InfoDate from "../InfoDate/InfoDate";
 import Timetable from "../Timetable/Timetable";
 import Dresscode from "../DressCode/Dresscode";
 import Details from "../Details/Details";
-import Counter from "../Counter/Counter";
+import Timer from "../Timer/Timer";
 import Rsvp from "../RSVP/Rsvp";
 import Questions from "../Questions/Questions"
 import Footer from "../Footer/Footer";
@@ -30,6 +31,18 @@ function App() {
     setIsCloseBurger(true);
   }
 
+  const renderer = ({ days, hours, minutes, seconds, completed }) => {
+    if (completed) {
+      return <span>You are good to go!</span>;
+    } else {
+      return <Timer
+      days={days}
+      hours={hours}
+      minutes={minutes}
+      seconds={seconds}/>;
+    }
+  };
+
   return (
     <div className="App">
       <Menu
@@ -40,8 +53,11 @@ function App() {
       <Timetable />
       <Dresscode />
       <Details />
-      <Counter
-      date={new Date('14 Jun 2023 16:24')} />
+      <Countdown
+        date={"2023-06-23T15:30:00+00:00"}
+        renderer={renderer}/>
+      {/* <Counter
+      date={new Date('14 Jun 2023 16:24')} /> */}
       <Rsvp />
       <Questions />
       <Footer />

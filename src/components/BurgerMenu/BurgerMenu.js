@@ -3,9 +3,10 @@ import "./BurgerMenu.css";
 
 function BurgerMenu(props) {
   const {isOpenBurger, onCloseBurger} = props;
+
   return (
     <section className={`burger-menu burger-menu_${isOpenBurger && 'visible'}`}>
-      <ul className="burger-menu__links">
+      <ul className={`burger-menu__links burger-menu__links_${isOpenBurger && 'visible'}`}>
         <li className="burger-menu__link" onClick={onCloseBurger}><a href="#home" className="burger-menu__ancor">ГЛАВНАЯ</a></li>
         <li className="burger-menu__link" onClick={onCloseBurger}><a href="#place" className="burger-menu__ancor">ГДЕ</a></li>
         <li className="burger-menu__link" onClick={onCloseBurger}><a href="#plan" className="burger-menu__ancor">ПЛАН ДНЯ</a></li>
